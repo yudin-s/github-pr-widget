@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "account": "demo-user",
+  "pullRequests": [
+    {
+      "id": "demo-pr-1",
+      "repository": "demo/workspace",
+      "number": 42,
+      "title": "Add keyboard shortcuts to search",
+      "url": "https://example.com/demo/pull/42",
+      "review": "approved",
+      "ci": "success",
+      "commentIDs": [
+        "demo-comment-1-0",
+        "demo-comment-1-1"
+      ],
+      "lastCommitAt": 790162200.0
+    },
+    {
+      "id": "demo-pr-2",
+      "repository": "demo/workspace",
+      "number": 41,
+      "title": "Improve empty states in the dashboard",
+      "url": "https://example.com/demo/pull/41",
+      "review": "required",
+      "ci": "pending",
+      "commentIDs": [],
+      "lastCommitAt": 790158600.0
+    },
+    {
+      "id": "demo-pr-3",
+      "repository": "demo/notes",
+      "number": 28,
+      "title": "Keep draft notes after restarting",
+      "url": "https://example.com/demo/pull/28",
+      "review": "changesRequested",
+      "ci": "failure",
+      "commentIDs": [
+        "demo-comment-3-0",
+        "demo-comment-3-1",
+        "demo-comment-3-2"
+      ],
+      "lastCommitAt": 790155000.0
+    },
+    {
+      "id": "demo-pr-4",
+      "repository": "demo/notes",
+      "number": 27,
+      "title": "Document the local development setup",
+      "url": "https://example.com/demo/pull/27",
+      "review": "draft",
+      "ci": "none",
+      "commentIDs": [],
+      "lastCommitAt": 790151400.0
+    },
+    {
+      "id": "demo-pr-5",
+      "repository": "demo/website",
+      "number": 19,
+      "title": "Add a compact navigation menu",
+      "url": "https://example.com/demo/pull/19",
+      "review": "approved",
+      "ci": "success",
+      "commentIDs": [],
+      "lastCommitAt": 790147800.0
+    },
+    {
+      "id": "demo-pr-6",
+      "repository": "demo/website",
+      "number": 18,
+      "title": "Improve focus styles for links",
+      "url": "https://example.com/demo/pull/18",
+      "review": "required",
+      "ci": "success",
+      "commentIDs": [],
+      "lastCommitAt": 790144200.0
+    },
+    {
+      "id": "demo-pr-7",
+      "repository": "demo/workspace",
+      "number": 38,
+      "title": "Update the settings page layout",
+      "url": "https://example.com/demo/pull/38",
+      "review": "approved",
+      "ci": "success",
+      "commentIDs": [],
+      "lastCommitAt": 790140600.0
+    },
+    {
+      "id": "demo-pr-8",
+      "repository": "demo/notes",
+      "number": 25,
+      "title": "Add examples to the getting started guide",
+      "url": "https://example.com/demo/pull/25",
+      "review": "required",
+      "ci": "pending",
+      "commentIDs": [],
+      "lastCommitAt": 790137000.0
+    },
+    {
+      "id": "demo-pr-9",
+      "repository": "demo/website",
+      "number": 16,
+      "title": "Refresh the footer links",
+      "url": "https://example.com/demo/pull/16",
+      "review": "draft",
+      "ci": "none",
+      "commentIDs": [],
+      "lastCommitAt": 790133400.0
+    }
+  ],
+  "accounts": {
+    "demo-user": {
+      "demo-pr-1": {
+        "hidden": false,
+        "readIDs": []
+      },
+      "demo-pr-2": {
+        "hidden": false,
+        "readIDs": []
+      },
+      "demo-pr-3": {
+        "hidden": false,
+        "readIDs": []
+      },
+      "demo-pr-4": {
+        "hidden": false,
+        "readIDs": []
+      },
+      "demo-pr-5": {
+        "hidden": false,
+        "readIDs": []
+      },
+      "demo-pr-6": {
+        "hidden": false,
+        "readIDs": []
+      },
+      "demo-pr-7": {
+        "hidden": true,
+        "readIDs": []
+      },
+      "demo-pr-8": {
+        "hidden": true,
+        "readIDs": []
+      },
+      "demo-pr-9": {
+        "hidden": true,
+        "readIDs": []
+      }
+    }
+  },
+  "lastSuccessAt": 790162200.0,
+  "lastAttemptAt": 790162200.0,
+  "nextAttemptAt": 790164000.0,
+  "isRefreshing": false,
+  "showHidden": false,
+  "pageIndex": 0
+}
